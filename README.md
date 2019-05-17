@@ -199,3 +199,21 @@ You should see in your terminal a message indicating that the server is listenin
      ![Request: http://localhost:8000/submitstar](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5ca365d3_signing-message/signing-message.png)
 6. Retrieve Stars owned by me
     ![Request: http://localhost:8000/blocks/<WALLET_ADDRESS>](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5ca362b9_retrieve-stars/retrieve-stars.png)
+
+## Test application functionalities
+
+Clone the repository and install npm modules requied for the application using the command `npm install`
+
+1. Run your application using the command `node app.js`
+You should see in your terminal a message indicating that the server is listening in port 8000:
+> Server Listening for port: 8000
+2. To make sure your application is working fine and it creates the Genesis Block you can use POSTMAN to request the Genesis block:
+    ![Request: http://localhost:8000/block/0 ](https://raw.githubusercontent.com/SID-FROSTY/StarTrek/master/images/get_block_by_height.JPG)
+3. Make your first request of ownership sending your wallet address:
+    ![Request: http://localhost:8000/requestValidation ](https://raw.githubusercontent.com/SID-FROSTY/StarTrek/master/images/post_request_validation.JPG)
+4. Sign the message with your Wallet:
+    ![Use the Wallet to sign a message](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5ca36182_request-ownership/request-ownership.png)
+5. Submit your Star
+     ![Request: http://localhost:8000/submitstar](https://raw.githubusercontent.com/SID-FROSTY/StarTrek/master/images/post_submit_star.jpg)
+6. Retrieve Stars owned by me
+    ![Request: http://localhost:8000/blocks/owner/<WALLET_ADDRESS>](https://raw.githubusercontent.com/SID-FROSTY/StarTrek/master/images/get_star_by_owner.jpg)
