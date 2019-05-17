@@ -212,7 +212,7 @@ You should see in your terminal a message indicating that the server is listenin
 3. Make your first request of ownership sending your wallet address:
     ![Request: http://localhost:8000/requestValidation ](https://raw.githubusercontent.com/SID-FROSTY/StarTrek/master/images/post_request_validation.JPG)
 4. Sign the message with your Wallet:
-    ![Use the Wallet to sign a message](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/April/5ca36182_request-ownership/request-ownership.png)
+    ![Use the Wallet to sign a message](https://raw.githubusercontent.com/SID-FROSTY/StarTrek/master/images/sign_message_using_wallet.jpg)
 5. Submit your Star
      ![Request: http://localhost:8000/submitstar](https://raw.githubusercontent.com/SID-FROSTY/StarTrek/master/images/post_submit_star.jpg)
 6. Retrieve Stars owned by me
